@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // this defines what 1rem is
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  height: 100vh;
+  background: $bg-gradient1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    $bg-gradient2,
+    $bg-gradient1
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    $bg-gradient2,
+    $bg-gradient1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

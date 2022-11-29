@@ -1,0 +1,23 @@
+{
+  "name": "match-game",
+  "version": "1.0.0",
+  "description": "a match game in javascript",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch ./src/scss:./src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalforge/coding-challenges.git"
+  },
+  "keywords": [
+    "match",
+    "game"
+  ],
+  "author": "Jonathan Doucette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalforge/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/digitalforge/coding-challenges#readme"
+}
